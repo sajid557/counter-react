@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 1rem;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  background-color: rgb(10, 96, 124);
+  color: #fff;
+}
+nav a {
+  color: #fff;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  list-style: none;
+}
+button {
+  font-size: 1.5rem;
+  padding: 8px;
+  margin: 8px;
+}
+
+.container {
+  width: 100%;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  margin: 32px;
+}
+.home .card {
+  width: 250px;
+  height: 300px;
+  box-shadow: 0px 6px 16px #3c5c5c40, 0px 12px 26px #3c5c5c70;
+  color: #333;
+  margin: 8px;
+  padding: 16px;
+
+  font-family: roboto, sans-serif;
+}
+.card .card-img {
+  width: 50%;
+  margin: auto;
+}
+.home ul {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+}
+.home ul li {
+  width: 100%;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.home a {
+  color: #333;
+}
+.itemdetail {
+  width: 50%;
+  margin: 32px;
+  font-family: roboto, sans-serif;
+}
+.itemdetail img {
+  width: 300px;
+}
+.about a {
+  color: #333;
+}

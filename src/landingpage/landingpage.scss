@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrap {
+  padding: 1rem;
+}
+.landingpage {
+  //   max-width: 100vw;
+  //   max-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  background-image: url("./images/thor.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.4s;
+  text-transform: capitalize;
+}
+body,
+a {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 1rem;
+  font-weight: 600;
+  text-shadow: 3px 3px 9px #ffffff70;
+}
+ul.navbar {
+  width: 50%;
+  li {
+    width: 15%;
+    float: right;
+  }
+  a {
+    opacity: 0.85;
+    transition: 0.4s;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+.title-container {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  margin-left: 10rem;
+  h1 {
+    font-size: 10rem;
+  }
+  p {
+    font-size: 2rem;
+    opacity: 0.8;
+    line-height: 0;
+    margin-top: -10px;
+    margin-left: 40px;
+  }
+}
+
+ul.media {
+  /* float: right; */
+  position: absolute;
+  right: 4%;
+  bottom: 40%;
+  font-size: 12px;
+  line-height: 1.5;
+  li {
+    padding: 8px 8px;
+  }
+  a {
+    opacity: 0.6;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
